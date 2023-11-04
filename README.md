@@ -38,3 +38,46 @@
       
 </body>
 </html>
+
+css  
+#containerFull {
+  width: 280px;
+  margin: 0 auto;
+}
+
+#container {
+  border: 3px solid #000;
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.row div {
+  
+  width: 60px;
+  height: 60px;
+  border-left: 1.5px solid #000;
+  border-bottom: 1.5px solid #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-1 div:nth-child(2n+1) {
+  background: #000;
+  color: #FFF;
+}
+
+.line-2 div:nth-child(2n) {
+  background: #000;
+  color: #FFF;
+}
+
+
